@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="menuButtonsStyle" format="reference"/>
+    <attr name="floatingActionMenuStyle" format="reference"/>
+    <attr name="colorPrimaryTransparent" format="reference"/>
+    <attr name="circular_view_color" format="color"/>
+</resources>

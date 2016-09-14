@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Blue" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/ButtonStyleBlue</item>
+        <!--<item name="circular_view_color">@color/light_blue_800</item>-->
+
+        <!--<item name="menuButtonsStyle">@style/MenuButtonsStyleLightBlue</item>
+        <item name="floatingActionMenuStyle">@style/FloatingActionMenuStyleLightBlue</item>-->
+    </style>
+
+    <style name="Blue.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ButtonStyleBlue">
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <!--<style name="FloatingActionMenuStyleLightBlue">
+        <item name="menu_colorNormal">@color/light_blue_a400</item>
+        <item name="menu_colorPressed">@color/light_blue_800</item>
+        <item name="menu_colorRipple">@color/light_blue_900</item>
+    </style>
+
+    <style name="MenuButtonsStyleLightBlue">
+        <item name="fab_size">normal</item>
+        <item name="fab_colorNormal">@color/light_blue_a400</item>
+        <item name="fab_colorPressed">@color/light_blue_800</item>
+        <item name="fab_colorRipple">@color/light_blue_900</item>
+    </style>-->
+</resources>

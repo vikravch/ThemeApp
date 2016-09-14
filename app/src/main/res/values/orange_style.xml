@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Orange" parent="AppTheme">
+
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryTransparent">@color/orange_50</item>
+        <item name="colorPrimaryDark">@color/orange_700</item>
+        <item name="colorAccent">@color/orange_a700</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="circular_view_color">@color/orange_500</item>
+
+        <item name="buttonStyle">@style/ButtonStyleOrange</item>
+        <!--<item name="menuButtonsStyle">@style/MenuButtonsStyleOrange</item>
+        <item name="floatingActionMenuStyle">@style/FloatingActionMenuStyleOrange</item>-->
+    </style>
+
+    <style name="Orange.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ButtonStyleOrange">
+        <item name="android:textSize">40dp</item>
+    </style>
+
+    <!--<style name="MenuButtonsStyleOrange">
+        <item name="fab_size">normal</item>
+
+        <item name="fab_colorNormal">@color/orange_a700</item>
+        <item name="fab_colorPressed">@color/orange_500</item>
+        <item name="fab_colorRipple">@color/orange_700</item>
+    </style>
+
+    <style name="FloatingActionMenuStyleOrange">
+        <item name="menu_colorNormal">@color/orange_a700</item>
+        <item name="menu_colorPressed">@color/orange_500</item>
+        <item name="menu_colorRipple">@color/orange_700</item>
+    </style>-->
+</resources>
